@@ -30,7 +30,7 @@ t1 = {ord(u'ا'):u'A',
       ord(u'ن'):u'n',
       ord(u'ه'):u'h',
       ord(u'و'):u'w',
-	    ord(u'ي'):u'y'}
+      ord(u'ي'):u'y'}
 	  
 def subst(word):    
         return word.translate(t1)
